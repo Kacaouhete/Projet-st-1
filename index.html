@@ -1,1 +1,236 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rene ssance</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <input type="checkbox" name="" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bar"></i>
+        </label>
+        <label class="logo">
+          Hey
+          <i class="fa fa-braille" aria-hidden="true"></i>
+          Re Ney
+        </label>
+        <ul>
+          <li>
+            <a class="active" href="#">Home <ion-icon name="caret-down"></ion-icon></a>
+            <ul>
+              <li><a href="#Performances">Performances</a></li>
+              <li><a href="#AboutUs">About Us</a></li>
+              <li><a href="#pricé">Prices</a></li>
+              <li><a href="#contaaa">Contact</a></li>
+            </ul>
+          </li>
+          <li><a href="#">ChuckJoke</a></li>
+          <li><a href="https://kacaouhete.github.io/Projet-st-2/">ToDoList</a></li>
+        </ul>
+      </nav>
+      <section></section>
+    </header>
+    <main>
+      <section id="Performance">
+        <h2 id="perf">Performance</h2>
+        <ul class="perfflexbox">
+          <li class="perf1">
+            <h3>Laugh</h3>
+            <img
+              src="./1200x900 rire JPZ.jpeg"
+              alt="JPZ rit"
+              id="perfimg1"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores earum perferendis, ratione optio quas modi?
+            </p>
+          </li>
+          <li class="perf2">
+            <h3>Dream</h3>
+            <img
+              src="./750x1000 dream.jpg"
+              alt="Dream"
+              id="perfimg2"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+              fugit cupiditate recusandae nemo eaque cumque odio sit fugiat
+              architecto expedita?
+            </p>
+          </li>
+          <li class="perf3">
+            <h3>Marvel At</h3>
+            <img
+              src="./100x1000.jpg"
+              alt="Marvel FanArt"
+              id="perfimg3"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              reprehenderit eos harum.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="AboutUs">
+        <h2 id="about">About Us</h2>
+        <div id="abalout">
+          <p class="a1">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quam
+            labore odio illo nulla, facere dolores consectetur necessitatibus
+            recusandae,
+            <br />
+            incidunt libero.
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic
+            fugiat tenetur modi laboriosam. Porro voluptatibus illum possimus
+            velit accusamus tenetur repudiandae dolor unde ducimus sunt cumque
+            doloremque recusandae, omnis nobis quia, voluptatum maiores quam ea
+            sit facere?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est animi
+            repellendus officiis iste harum recusandae, veritatis dignissimos
+            expedita, tempore in amet aspernatur!
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+            distinctio quaerat nobis blanditiis omnis voluptas, iste sapiente
+            autem quo explicabo nostrum id recusandae ratione non assumenda at
+            beatae temporibus.
+            <br />
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dignissimos commodi itaque sapiente aliquam illo ex odit nemo, sint
+            fuga beatae laudantium natus.
+          </p>
+        </div>
+      </section>
+      <section id="pricé">
+        <!-- pourquoi dans le code de base il ne met pas de thead et tbody et tfooterz -->
+        <h2 id="prices">Prices</h2>
+        <table>
+          <caption>
+            Ticket prices
+          </caption>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Lorem.</th>
+              <th>Lorem, ipsum dolor.</th>
+              <th>Lorem ipsum dolor sit.</th>
+              <th>Lorem.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Lorem, ipsum dolor.</td>
+              <td>00</td>
+              <td>44</td>
+              <td>33</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Lorem ipsum dolor sit amet.</td>
+              <td>22</td>
+              <td>55</td>
+              <td>66</td>
+              <td>77</td>
+            </tr>
+          </tbody>
+          <img
+            src="./932x582 ticket métro.jpg"
+            alt="tikectphoto"
+            id="Ticketphoto"
+          />
+        </table>
+      </section>
+      <section id="contaaa">
+        <h2 id="contact">Contact</h2>
+        <img
+          src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJhMmRpOWd0cjgyZWdybjUzNDkweDdocnJicndvdGZhaW03bzl6dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uchGqpI5drRdK/giphy.gif"
+          alt="Acrobate Reader"
+          id="contactimg"
+        />
+        <!-- pourquoi mettre une class et pas une id ? -->
+        <div class="Fichecontact">
+          <p class="title">Contact here for more information about you</p>
+          <!-- ça sert à quoi de mettre un type de method et d'action dans la balise form ça na pas l'aire de changer grand choses ? -->
+          <form action="" method="post">
+            <!-- Pourquoi mettre un fieldset et pas une autre dive ou un table ? -->
+            <fieldset>
+              <!-- pareil pourquoi une légende et pas un h4 ? -->
+              <legend>Contact</legend>
+              <!-- pourquoi séparé toute les input avec des div ? -->
+              <div id="Namee">
+                <!-- C'est dabord le label puis l'input ou l'inverse ? et pourquoi dans le code de base il entoure ses deux balise label et imput d'une balise p ?-->
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="here rite your name"
+                />
+              </div>
+              <div id="email">
+                <label for="mail">Email</label>
+                <input
+                  type="email"
+                  name="mail"
+                  id="mail"
+                  placeholder="here rite your email"
+                />
+              </div>
+              <div id="subaject">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="here rite your subject"
+                />
+              </div>
+              <div id="msg">
+                <label for="mess">Message</label>
+                <textarea
+                  name="Message"
+                  id="mess"
+                  rows="1"
+                  cols="0"
+                  placeholder="here rite your message"
+                ></textarea>
+              </div>
+              <div class="send">
+                <button type="submit">Submit</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        exo by
+        <a href="https://github.com/Kacaouhete" target="_blank"
+          >Newén Blanchet</a
+        >
+      </p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
